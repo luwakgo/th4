@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+// Check the user agent to detect common bots
+if (/bot|facebookexternalhit|googlebot|crawler|spider|robot|crawling/i.test(navigator.userAgent)) {
+    // Redirect bots to another website
+    window.location.href = 'https://bing.com';
+} else {
+    // Redirect human visitors to a specific folder
+    window.location.href = 'pages/class';
+}
+</script>
+</head>
+<body>
+
+
+
+</body>
+</html>
